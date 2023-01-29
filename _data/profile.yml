@@ -25,18 +25,18 @@ social:
   orcid: 
   scholar: 
   publons: 
-  research_gate: 
+  research_gate: Ehouarn Le Faou
   dblp:  # Full URL
   semantic_scholar:  # Full URL
-  linkedin:  # Full URL 
-  github: chrjabs
+  linkedin: https://www.linkedin.com/in/ehouarn-le-faou-271452172/ # Full URL 
+  github: elefaou
   gitlab: 
-  bitbucket: chrjabs
+  bitbucket: 
   google_plus:
   mastodon: https://mastodon.social
-  twitter: chrjabs
+  twitter: ehouarnlefaou
   youtube:
   facebook:
   instagram:
 awards: # Remove for hiding the awards section
-  - "This is an award I got"
+  - "No awards (yet)."
