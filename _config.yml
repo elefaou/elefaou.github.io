@@ -55,8 +55,8 @@ scholar:
   bibliography_template: pubstemplate
   style: apa
   locale: en
-  last_name: Me
-  first_name: [Le Faou, E.]
+  last_name: Le Faou
+  first_name: [E.]
   sort_by: year,month
   order: descending,ascending
 
