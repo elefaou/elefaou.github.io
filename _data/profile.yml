@@ -2,7 +2,7 @@ image: assets/img/smile.png
 username: Ehouarn Le Faou
 description: PhD student with John Pannell (University of Lausanne). Education in Mathematics, Physics, Chemistry and Biology. Specialisation in Ecology & Evolutionary Biology
 webpage: https://elefaou.github.io
-EDUCATION &#38; EXPERIENCE: # Remove for hiding the experience section
+EXPERIENCE: # Remove for hiding the experience section
   - start: 2022
     end: Now
     experience : PhD with John Pannell, University of Lausanne (Switzerland)
