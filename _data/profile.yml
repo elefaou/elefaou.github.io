@@ -1,11 +1,19 @@
 image: assets/img/smile.png
-username: Christoph Jabs
-description: creator of the Grape-Academic-Theme! Grape-Academic-Theme is a modification of the Grape-Theme by naye0ng, making it more suitable as an academic portfolio.
-webpage: https://chrjabs.github.io
+username: Ehouarn Le Faou
+description: PhD student with John Pannell (University of Lausanne). Education in Mathematics, Physics, Chemistry and Biology. Specialisation in Ecology & Evolutionary Biology
+webpage: https://elefaou.github.io
 experience: # Remove for hiding the experience section
-  - start: 2017-05-03
-    end: 2018-05-06
-    experience : company name, title
+  - start: 202
+    end: 2022
+    experience : MSc Ecological Modelling (head of the class of the first year), University of Rennes 1 (France)
+  - start: 2019
+    end: 2020
+    experience : BSc Degree (Bachelor of Science) in biology of organisms, ethology, ecology, evolution (BO3E), international section, University of Rennes 1 (France)
+  - start: 2017
+    end: 2019
+    experience : French CPGE (Classes préparatoires aux grandes écoles), Undergraduate courses to prepare nationwide exams in veterinary and agronomic sciences, Lycée Chateaubriand (Rennes, France)
+  - start: 2017
+    experience : French Baccalauréat in sciences, speciality mathematics
 interests: # Remove for hiding the interests section
   - Interest 1
   - Interest 2
