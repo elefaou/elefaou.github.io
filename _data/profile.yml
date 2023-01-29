@@ -2,8 +2,11 @@ image: assets/img/smile.png
 username: Ehouarn Le Faou
 description: PhD student with John Pannell (University of Lausanne). Education in Mathematics, Physics, Chemistry and Biology. Specialisation in Ecology & Evolutionary Biology
 webpage: https://elefaou.github.io
-experience: # Remove for hiding the experience section
-  - start: 202
+EDUCATION &#38; EXPERIENCE: # Remove for hiding the experience section
+  - start: 2022
+    end: Now
+    experience : PhD with John Pannell, University of Lausanne (Switzerland)
+  - start: 2020
     end: 2022
     experience : MSc Ecological Modelling (head of the class of the first year), University of Rennes 1 (France)
   - start: 2019
@@ -15,17 +18,19 @@ experience: # Remove for hiding the experience section
   - start: 2017
     experience : French Baccalauréat in sciences, speciality mathematics
 interests: # Remove for hiding the interests section
-  - Interest 1
-  - Interest 2
-skills: # Remove for hiding the skills section
-  - skill: HTML5 & CSS
-    value: 85  # Percent value
+  - Theoretical (from my education) and empirical science
+  - Evolution of reproductive systems
+  - Plant evolution
+  - Population genetics
+# skills: # Remove for hiding the skills section
+#   - skill: HTML5 & CSS
+#     value: 85  # Percent value
 social:
   email:  # Full email address, e.g. "sample@google.com"
   orcid: 
   scholar: 
   publons: 
-  research_gate: Ehouarn Le Faou
+  research_gate: Ehouarn-Le-Faou
   dblp:  # Full URL
   semantic_scholar:  # Full URL
   linkedin: https://www.linkedin.com/in/ehouarn-le-faou-271452172/ # Full URL 
@@ -33,7 +38,7 @@ social:
   gitlab: 
   bitbucket: 
   google_plus:
-  mastodon: https://mastodon.social
+  mastodon: 
   twitter: ehouarnlefaou
   youtube:
   facebook:
