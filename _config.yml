@@ -1,5 +1,5 @@
 # Site setings
-name: 'Forma'
+name: 'Ehouarn Le Faou'
 description: 'Bold Theme For Brave People'
 # Sidebar about text
 site_description: 'Welcome to my blog. It features topics such as fashion, architecture, travel & design. This blog is about finding balance in life, living with purpose, having fun, and doing what you love.'
@@ -18,15 +18,15 @@ contact_page_description: "Forma theme comes with a contact form built-in. You c
 thankyou_page_description: "Your message has been successfully sent. We will contact you very soon!"
 
 # Social links
-twitter: 'username'
-facebook: 'username'
-github: 'username'
-codepen: 'username'
-dribbble: 'username'
-medium: '@username'
-instagram: 'username'
-pinterest: 'username'
-linkedin: 'username'
+twitter: 'ehouarnlefaou'
+# facebook: 'username'
+github: 'elefaou'
+# codepen: 'username'
+# dribbble: 'username'
+# medium: '@username'
+instagram: 'ehouarnlf'
+# pinterest: 'username'
+linkedin: 'Ehouarn Le Faou'
 
 # Navigation
 navigation:
