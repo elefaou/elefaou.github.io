@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator>
+  <link href="http://localhost:4000/author/nancy/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2024-04-30T20:51:35+02:00</updated>
+  <id>http://localhost:4000/author/nancy/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Ehouarn Le Faou | </title>
+  
+
+  
+    <subtitle>Evolutionary biologist</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">How To Start Learning Blockchain Development</title>
+      <link href="http://localhost:4000/how-to-start-learning-blockchain-development" rel="alternate" type="text/html" title="How To Start Learning Blockchain Development" />
+      <published>2022-03-10T00:00:00+01:00</published>
+      <updated>2022-03-10T00:00:00+01:00</updated>
+      <id>http://localhost:4000/how-to-start-learning-blockchain-development</id>
+      <content type="html" xml:base="http://localhost:4000/how-to-start-learning-blockchain-development">&lt;p&gt;A blockchain, originally block chain, is a continuously growing list of records, called blocks, which are linked and secured using cryptography. Each block typically contains a hash pointer as a link to a previous block, a timestamp and transaction data. By design, a blockchain is inherently resistant to modification of the data. It is &lt;em&gt;“an open, distributed ledger that can record transactions between two parties efficiently and in a verifiable and permanent way”&lt;/em&gt;.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;For use as a distributed ledger, a blockchain is typically managed by a peer-to-peer network collectively adhering to a protocol for validating new blocks. Once recorded, the data in any given block cannot be altered retroactively without the alteration of all subsequent blocks, which requires collusion of the network majority.&lt;/p&gt;
+
+&lt;p&gt;Blockchains are secure by design and are an example of a distributed computing system with high Byzantine fault tolerance. Decentralized consensus has therefore been achieved with a blockchain. This makes blockchains potentially suitable for the recording of events, medical records, and other records management activities, such as identity management, transaction processing, documenting provenance, food traceability or voting.&lt;/p&gt;
+
+&lt;h2 id=&quot;code-blocks-highlighted-with-prismjs&quot;&gt;Code blocks, highlighted with &lt;a href=&quot;http://prismjs.com/index.html&quot;&gt;Prism.js&lt;/a&gt;&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-markup&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&quot;en&quot;&amp;gt;
+&amp;lt;head&amp;gt;
+	&amp;lt;meta charset=&quot;utf-8&quot; /&amp;gt;
+	&amp;lt;title&amp;gt;Prism&amp;lt;/title&amp;gt;
+	&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; /&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+	&amp;lt;header&amp;gt;
+		&amp;lt;div class=&quot;intro&quot; data-src=&quot;templates/header-main.html&quot; data-type=&quot;text/html&quot;&amp;gt;&amp;lt;/div&amp;gt;
+		&amp;lt;ul id=&quot;features&quot;&amp;gt;
+			&amp;lt;li&amp;gt;Dead simple&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;Light as a feather&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;Extensible&amp;lt;/li&amp;gt;
+		&amp;lt;/ul&amp;gt;
+	&amp;lt;/header&amp;gt;
+	&amp;lt;section id=&quot;features-full&quot; class=&quot;language-markup&quot;&amp;gt;
+		&amp;lt;h1&amp;gt;Full list of features&amp;lt;/h1&amp;gt;
+		&amp;lt;ul&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Only 2KB&amp;lt;/strong&amp;gt; minified &amp;amp; gzipped (core). Each language definition adds roughly 300-500 bytes.&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;Very easy to extend without modifying the code, due to Prism’s &amp;lt;a href=&quot;#plugins&quot;&amp;gt;plugin architecture&amp;lt;/a&amp;gt;. Multiple hooks are scattered throughout the source.&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;Very easy to &amp;lt;a href=&quot;extending.html#language-definitions&quot;&amp;gt;define new languages&amp;lt;/a&amp;gt;. Only thing you need is a good understanding of regular expressions&amp;lt;/li&amp;gt;
+		&amp;lt;/ul&amp;gt;
+	&amp;lt;/section&amp;gt;
+	&amp;lt;footer data-src=&quot;templates/footer.html&quot; data-type=&quot;text/html&quot;&amp;gt;&amp;lt;/footer&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;var Token = _.Token = function(type, content, alias, matchedStr, greedy) {
+	this.type = type;
+	this.content = content;
+	this.alias = alias;
+	// Copy of the full string this token was created from
+	this.length = (matchedStr || &quot;&quot;).length|0;
+	this.greedy = !!greedy;
+};&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;@import url(http://fonts.googleapis.com/css?family=Arvo);
+
+/* Styles */
+
+body {
+	font: 100%/1.5 Questrial, sans-serif;
+	tab-size: 4;
+	hyphens: auto;
+}
+
+a {
+	color: inherit;
+}
+
+section h1 {
+	font-size: 250%;
+}
+
+section h1,
+#features li strong,
+header h2,
+footer p {
+	font: 100% Rockwell, Arvo, serif;
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The first blockchain was conceptualized in 2008 by an anonymous person or group known as Satoshi Nakamoto and implemented in 2009 as a core component of bitcoin where it serves as the public ledger for all transactions. The invention of the blockchain for bitcoin made it the first digital currency to solve the double spending problem without the need of a trusted authority or central server. The bitcoin design has been the inspiration for other applications.&lt;/p&gt;
+
+&lt;h2 id=&quot;history&quot;&gt;History&lt;/h2&gt;
+
+&lt;p&gt;The first work on a cryptographically secured chain of blocks was described in 1991 by Stuart Haber and W. Scott Stornetta. In 1992, Bayer, Haber and Stornetta incorporated Merkle trees to the design, which improved its efficiency by allowing several documents to be collected into one block.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-0.3.5&amp;amp;q=80&amp;amp;fm=jpg&amp;amp;crop=entropy&amp;amp;cs=tinysrgb&amp;amp;w=1080&amp;amp;fit=max&amp;amp;ixid=eyJhcHBfaWQiOjExNzczfQ&amp;amp;s=163e3ea37d2c0fda3f586d5552752f59#wide&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;”Bitcoin is the beginning of something great: a currency without a government, something necessary and imperative.” &lt;cite&gt;– Peter Thiel, Co-Founder of PayPal –&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The first blockchain was conceptualised by an anonymous person or group known as Satoshi Nakamoto in 2008. It was implemented the following year as a core component of the digital currency bitcoin, where it serves as the public ledger for all transactions on the network. By using a blockchain, bitcoin became the first digital currency to solve the double spending problem without requiring a trusted administrator and has been the inspiration for many additional applications.&lt;/p&gt;
+
+&lt;h2 id=&quot;structure&quot;&gt;Structure&lt;/h2&gt;
+
+&lt;p&gt;A blockchain is a decentralized and distributed digital ledger that is used to record transactions across many computers so that the record cannot be altered retroactively without the alteration of all subsequent blocks and the collusion of the network. This allows the participants to verify and audit transactions inexpensively. A blockchain database is managed autonomously using a peer-to-peer network and a distributed timestamping server. They are authenticated by mass collaboration powered by collective self-interests. The result is a robust workflow where participants’ uncertainty regarding data security is marginal. The use of a blockchain removes the characteristic of infinite reproducibility from a digital asset. It confirms that each unit of value was transferred only once, solving the long-standing problem of double spending.&lt;/p&gt;
+
+&lt;p&gt;Blockchains have been described as a value-exchange protocol. This blockchain-based exchange of value can be completed more quickly, more safely and more cheaply than with traditional systems. A blockchain can assign title rights because it provides a record that compels offer and acceptance. &lt;a href=&quot;https://en.wikipedia.org/wiki/Blockchain&quot;&gt;(Source)&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Nancy Perez</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Tips" />
+      
+        <category term="Development" />
+      
+
+      
+        <summary type="html">A blockchain, originally block chain, is a continuously growing list of records, called blocks, which are linked and secured using cryptography. Each block typically contains a hash pointer as a link to a previous block, a timestamp and transaction data. By design, a blockchain is inherently resistant to modification of the data. It is “an open, distributed ledger that can record transactions between two parties efficiently and in a verifiable and permanent way”.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">The Cutting Edge Architecture</title>
+      <link href="http://localhost:4000/the-cutting-edge-architecture" rel="alternate" type="text/html" title="The Cutting Edge Architecture" />
+      <published>2019-11-13T00:00:00+01:00</published>
+      <updated>2019-11-13T00:00:00+01:00</updated>
+      <id>http://localhost:4000/the-cutting-edge-architecture</id>
+      <content type="html" xml:base="http://localhost:4000/the-cutting-edge-architecture">&lt;p&gt;This beautiful rough concrete house located in the small town of &lt;strong&gt;Besalu in the Ayora&lt;/strong&gt;, Valencia region, Spain, has been designed by Fran Silvestre, a talented architectural firm from Spain. Set in a sloping plain, the House allows its concrete exterior to show through without overwhelming the minimal interior. The house is hexagonal, allowing for a room layout that lends itself to eye-catching reveals. Warm wood floors and cabinets pair with white walls and exposed grey concrete to give the interior a cozy yet distinctly modern feel, while abundant windows let in plenty of natural light while providing views to the outdoors.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;In this way the house is conceived as a piece deposited on the ground, engaging the unevenness. A piece constructed in the same white lime, with the same primacy of the massif over the span, that takes advantage of the edge of the lot to arrange its holes and to integrate in the fragmentation of the surroundings.&lt;/p&gt;
+
+&lt;p&gt;The interior space of the dwelling is articulated through the void in which is located the nucleus of communication arranged parallel to the cut of the mountain, without touching it. On the ground floor are the garage and the cellar, on this is arranged a volume of two floors with four rooms.&lt;/p&gt;
+
+&lt;p&gt;Not only is this visually striking architectural design, but it’s beautifully considered and practical for those who will experience this school on a daily basis.&lt;/p&gt;
+
+&lt;blockquote&gt;“To expect the unexpected shows a thoroughly modern intellect.” &lt;/blockquote&gt;
+
+&lt;p&gt;London is a leading global city, with strengths in the arts, commerce, education, entertainment, fashion, finance, healthcare, media, professional services, research and development, tourism, and transport all contributing to its prominence. It is one of the world’s leading financial centres and has the fifth-or sixth-largest metropolitan area GDP in the world depending on measurement. London is a world cultural capital. It is the world’s most-visited city as measured by international arrivals and has the world’s largest city airport system measured by passenger traffic. London is the world’s leading investment destination, hosting more international retailers and ultra high-net-worth individuals than any other city. London’s 43 universities form the largest concentration of higher education institutes in Europe, and a 2014 report placed it first in the world university rankings. According to the report London also ranks first in the world in software, multimedia development and design, and shares first position in technology readiness. In 2012, London became the first city to host the modern &lt;a href=&quot;https://en.wikipedia.org/wiki/Summer_Olympic_Games&quot;&gt;Summer Olympic Games three times&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1509440400926-95da53da5dc0?ixlib=rb-0.3.5&amp;amp;q=80&amp;amp;fm=jpg&amp;amp;crop=entropy&amp;amp;cs=tinysrgb&amp;amp;w=1080&amp;amp;fit=max&amp;amp;s=7918f34cc00f122a16cb75b2378eefab#wide&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote class=&quot;alignleft&quot;&gt;“Architecture should speak of its time and place, but yearn for timelessness.” &lt;cite&gt;― Frank Gehry&lt;/cite&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;London has a diverse range of peoples and cultures, and more than 300 languages are spoken within Greater London. The Greater London Authority estimated its population to be 8.63 million in 2015, the largest of any municipality in the European Union, and accounting for 12.5 percent of the UK population. London’s urban area is the second most populous in the EU, after Paris, with 9,787,426 inhabitants according to the 2011 census. The city’s metropolitan area is one of the most populous in Europe with 13,879,757 inhabitants, while the Greater London Authority states the population of the city-region (covering a large part of south east England) as 22.7 million. London was the world’s most populous city from around 1831 to 1925.&lt;/p&gt;
+
+&lt;p&gt;London contains four World Heritage Sites: the Tower of London; Kew Gardens; the site comprising the Palace of Westminster, Westminster Abbey, and St Margaret’s Church; and the historic settlement of Greenwich (in which the Royal Observatory, Greenwich marks the Prime Meridian, 0° longitude, and GMT). Other famous landmarks include Buckingham Palace, the London Eye, Piccadilly Circus, St Paul’s Cathedral, Tower Bridge, Trafalgar Square, and The Shard. London is home to numerous museums, galleries, libraries, sporting events and other cultural institutions, including the British Museum, National Gallery, Tate Modern, British Library and 40 West End theatres. The London Underground is the oldest underground railway network in the world.&lt;/p&gt;
+
+&lt;h2 id=&quot;museum-of-london&quot;&gt;Museum of London&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1484626753559-5fa3ea273ae8?ixlib=rb-0.3.5&amp;amp;q=80&amp;amp;fm=jpg&amp;amp;crop=entropy&amp;amp;cs=tinysrgb&amp;amp;w=1080&amp;amp;fit=max&amp;amp;s=c21ca0246d75ba185a49d687683dc08c#wide&quot; alt=&quot;&quot; /&gt;
+&lt;small&gt;Photo by &lt;a href=&quot;https://unsplash.com/@dnevozhai?utm_source=ghost&amp;amp;utm_medium=referral&amp;amp;utm_campaign=api-credit&quot;&gt;Denys Nevozhai&lt;/a&gt; / &lt;a href=&quot;https://unsplash.com/?utm_source=ghost&amp;amp;utm_medium=referral&amp;amp;utm_campaign=api-credit&quot;&gt;Unsplash&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;The Museum of London documents the history of London from prehistoric to modern times. The museum is located on London Wall, close to the Barbican Centre as part of the striking Barbican complex of buildings created in the 1960s and 1970s as an innovative approach to re-development within a bomb-damaged area of the City of London.&lt;/p&gt;
+
+&lt;p&gt;It is a few minutes’ walk north of &lt;a href=&quot;https://en.wikipedia.org/wiki/St_Paul%27s_Cathedral&quot;&gt;St Paul’s Cathedral&lt;/a&gt;, overlooking the remains of the Roman city wall and on the edge of the oldest part of London, now its main financial district. It is primarily concerned with the social history of London and its inhabitants throughout time. The museum is jointly controlled and funded by the City of London Corporation and the Greater London Authority.&lt;/p&gt;
+
+&lt;p&gt;In March 2015, the museum announced plans to move from its Barbican site to nearby Smithfield Market. The move, contingent upon raising an estimated £70 million, is planned to be complete by 2021.&lt;/p&gt;
+
+&lt;h2 id=&quot;description&quot;&gt;Description&lt;/h2&gt;
+
+&lt;p&gt;The amalgamation of the collections previously held by the City Corporation at the Guildhall Museum and of the London Museum, which was located in Kensington Palace was agreed in 1964. The Museum of London Act, allowing for the merger, was passed in the following year.&lt;/p&gt;
+
+&lt;p&gt;The museum was opened in December 1976 as part of the Barbican Estate, The architects were Philip Powell and Hidalgo Moya, who adopted an innovative approach to museum design, whereby the galleries were laid out so that there was only one route through the museum – from the prehistoric period to the modern galleries.&lt;/p&gt;
+
+&lt;p&gt;The museum comprises a series of chronological galleries containing original artefacts, models, pictures and diagrams, with a strong emphasis on archaeological discoveries, the built city, urban development and London’s social and cultural life, with interactive displays and activities for all ages. Fragments of the Roman London Wall can be seen just outside the museum. The prehistoric gallery, “London Before London” and the “Medieval London” gallery have already been updated, and in 2010 a refurbished gallery on &lt;em&gt;“War, Plague and Fire”&lt;/em&gt; opened, covering the period of the English Civil War and the Great Fire of London.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Nancy Perez</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Architecture" />
+      
+        <category term="Design" />
+      
+
+      
+        <summary type="html">This beautiful rough concrete house located in the small town of Besalu in the Ayora, Valencia region, Spain, has been designed by Fran Silvestre, a talented architectural firm from Spain. Set in a sloping plain, the House allows its concrete exterior to show through without overwhelming the minimal interior. The house is hexagonal, allowing for a room layout that lends itself to eye-catching reveals. Warm wood floors and cabinets pair with white walls and exposed grey concrete to give the interior a cozy yet distinctly modern feel, while abundant windows let in plenty of natural light while providing views to the outdoors.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Seven Things That Will Make Or Break Fusion Festival</title>
+      <link href="http://localhost:4000/six-things-that-will-make-or-break-fusion-festival" rel="alternate" type="text/html" title="Seven Things That Will Make Or Break Fusion Festival" />
+      <published>2018-05-12T00:00:00+02:00</published>
+      <updated>2018-05-12T00:00:00+02:00</updated>
+      <id>http://localhost:4000/six-things-that-will-make-or-break-fusion-festival</id>
+      <content type="html" xml:base="http://localhost:4000/six-things-that-will-make-or-break-fusion-festival">&lt;p&gt;&lt;strong&gt;The Fusion Festival&lt;/strong&gt; is a music and arts festival with a countercultural character. It takes place at a former military airport called Müritz Airpark in Lärz, Mecklenburg-Vorpommern, in northeastern &lt;a href=&quot;https://en.wikipedia.org/wiki/Germany&quot;&gt;Germany&lt;/a&gt;. The festival name is often depicted in Cyrillic letters as Фузион, but pronounced like the English word fusion [‘fjuʒən].&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;The annual festival was started by the Kulturkosmos organisation in 1997. It lasts four to six days, usually at the end of June. In 2015, the Fusion is scheduled to take place from June 25 - 28.&lt;/p&gt;
+
+&lt;blockquote class=&quot;alignright&quot;&gt;“One good thing about music, when it hits you, you feel no pain.”
+&lt;cite&gt;― Bob Marley&lt;/cite&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Different musical styles are represented at the festival, but the line up is not released beforehand. Mostly electronic music is present, but there is no stylistic restriction for the various live music acts, and the festival attendees may bring their own instruments. The festival also holds its own film festival and features different scales of art installations. Attendees may bring their own art and appear in artistic costumes. Only vegetarian food is sold at the festival grounds.&lt;/p&gt;
+
+&lt;p&gt;The festival gears to create a Temporary Autonomous Zone and a transformational environment. Due to its avantgardistic attitude and the variety of art, the Fusion Festival has been described by organizers as a European Burning Man, although it is not an official regional Burn. It is also compared to the Glastonbury Festival.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-0.3.5&amp;amp;q=80&amp;amp;fm=jpg&amp;amp;crop=entropy&amp;amp;cs=tinysrgb&amp;amp;w=1080&amp;amp;fit=max&amp;amp;s=e778bd090eca235b5999595ae1223575#wide&quot; alt=&quot;Confetti flying over the attendees of a concert at Dockville Festival&quot; /&gt;
+&lt;small&gt;Photo by &lt;a href=&quot;https://unsplash.com/@pabloheimplatz?utm_source=ghost&amp;amp;utm_medium=referral&amp;amp;utm_campaign=api-credit&quot;&gt;Pablo Heimplatz&lt;/a&gt; / &lt;a href=&quot;https://unsplash.com/?utm_source=ghost&amp;amp;utm_medium=referral&amp;amp;utm_campaign=api-credit&quot;&gt;Unsplash&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;concept&quot;&gt;Concept&lt;/h2&gt;
+
+&lt;p&gt;The Fusion Festival combines all styles of the underground electronic music scene and various other styles, sometimes depending on the attendees who choose to play their own music. It is described as a space people go to free their minds from their everyday lives, jobs, studies and other responsibilities. It is the result of the search for an alternative through music, to the system “people are forced to live in”. People go to the Fusion to experience a different way of socializing and living, where experiencing one another freely, sharing love for music and art connects different scenes and minds. It is a clothing-optional event. Art installations include performance arts, static artworks, sculptures, art cars and various other forms.&lt;/p&gt;
+
+&lt;p&gt;Fusion Festival began in 1997 near the city of Lärz in north-eastern Germany, about 160 km from Berlin and 230 km from Hamburg.&lt;/p&gt;
+
+&lt;h2 id=&quot;festival-site&quot;&gt;Festival Site&lt;/h2&gt;
+
+&lt;p&gt;The location is on the original grass-covered grounds of a disused military airfield (at 53°20′48.11″N 12°44′23.25″E for the 234-hectare area central field) about 4.5 km (2.25 miles) due north of the modern Rechlin-Lärz Airfield facility. The site was first acquired by the German Empire in 1916 as an aviation research and training ground, opening the facility for use by the Luftstreitkräfte in August 1918. After the establishment of the Luftwaffe in 1935, the field served as the Erprobungsstelle Rechlin central military aircraft test facility of the Third Reich through early 1945, and it was captured by the Soviet Red Army on May 2, 1945, for use by the VVS.&lt;/p&gt;
+
+&lt;p&gt;There are grass-covered concrete hangars (actual bunkers) from that time that were used for Soviet fighter aircraft (hence the Cyrillic transliteration of the festival name and various stages, as many Cyrillic inscriptions were still present on the site). The airfield was reopened for civilian use in 1994 and sold to the Müritz Airpark Group in 2010. [&lt;a href=&quot;https://en.wikipedia.org/wiki/Fusion_Festival&quot;&gt;Source&lt;/a&gt;]&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Nancy Perez</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Music" />
+      
+        <category term="Tips" />
+      
+
+      
+        <summary type="html">The Fusion Festival is a music and arts festival with a countercultural character. It takes place at a former military airport called Müritz Airpark in Lärz, Mecklenburg-Vorpommern, in northeastern Germany. The festival name is often depicted in Cyrillic letters as Фузион, but pronounced like the English word fusion [‘fjuʒən].</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">The Advantages &amp;amp; Disadvantages of Working from Home</title>
+      <link href="http://localhost:4000/working-from-home" rel="alternate" type="text/html" title="The Advantages &amp; Disadvantages of Working from Home" />
+      <published>2018-04-02T00:00:00+02:00</published>
+      <updated>2018-04-02T00:00:00+02:00</updated>
+      <id>http://localhost:4000/working-from-home</id>
+      <content type="html" xml:base="http://localhost:4000/working-from-home">&lt;p&gt;A work at home parent is an entrepreneur who works from home and integrates parenting into his or her business activities. They are sometimes referred to as a WAHM (work at home mom) or a WAHD (work at home dad).&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Entrepreneurs choose to run businesses from home for a variety of reasons, including lower business expenses, personal health limitations, eliminating commuting, or in order to have a more flexible schedule. This flexibility can give an entrepreneur more options when planning tasks, business and non-business, including parenting duties. While some home-based entrepreneurs opt for childcare outside the home,[1] others integrate child rearing into their work day and workspace. The latter are considered work-at-home parents.&lt;/p&gt;
+
+&lt;p&gt;Many WAHPs start home-based businesses in order to care for their children while still creating income. The desire to care for one’s own children, the incompatibility of a 9-to-5 work day with school hours or sick days, and the expense of childcare prompt many parents to change or leave their jobs in the workforce to be available to their children. Many WAHPs build a business schedule that can be integrated with their parenting duties.&lt;/p&gt;
+
+&lt;h1 id=&quot;types-of-work&quot;&gt;Types Of Work&lt;/h1&gt;
+
+&lt;p&gt;Common types of work found in work-at-home schemes include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Stuffing envelopes. The victim sees a flyer advertising a job stuffing envelopes, with “up to 1,000 envelopes a week that you can stuff… with postage and address already affixed!”, offering a payment of $1–2 per envelope. To apply for the job, the victim is required to send a self-addressed stamped envelope for information and a small processing fee. In return, the victim is sent a template for the flyer they had originally seen; the envelopes they stuff are from other people who answer the flyer, and the payment is the processing fee.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Assembly of items of some type, such as crafts, jewellery or medical equipment. The worker is required to pay up front for materials and construction kits, and when they attempt to sell the finished products back to the scheme’s organiser, they are told that the products “don’t meet our specifications”, leaving the worker with assembled products and no buyer.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Processing medical claims. The worker pays several hundred dollars for medical billing software, but will later discover that most medical clinics process their own bills, outsource their billing to established firms rather than individuals, or have stricter requirements than the purchased software can provide.
+Forum spamming. Usually advertised as some variant of “email processing”, the worker is simply given instructions on spamming online forums, and told they can make money by selling these same instructions online.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Sales of a product or service that is difficult or impossible to sell. This is often done in the form of a pyramid scheme.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some adverts offer legitimate forms of work that really do exist, but exaggerate the salary and understate the effort that will have to be put into the job, or exaggerate the amount of work that will be available. Many such ads do not even specify the type of work that will be performed.&lt;/p&gt;
+
+&lt;p&gt;Some similar schemes do not advertise work that would be performed at home, but may instead offer occasional, sporadic work away from home for large payments, paired with a lot of free time.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Nancy Perez</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Startup" />
+      
+        <category term="Tips" />
+      
+
+      
+        <summary type="html">A work at home parent is an entrepreneur who works from home and integrates parenting into his or her business activities. They are sometimes referred to as a WAHM (work at home mom) or a WAHD (work at home dad).</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Options for creating a new site with Jekyll</title>
+      <link href="http://localhost:4000/options-for-creating-new-site-with-jekyll" rel="alternate" type="text/html" title="Options for creating a new site with Jekyll" />
+      <published>2018-03-12T00:00:00+01:00</published>
+      <updated>2018-03-12T00:00:00+01:00</updated>
+      <id>http://localhost:4000/options-for-creating-new-site-with-jekyll</id>
+      <content type="html" xml:base="http://localhost:4000/options-for-creating-new-site-with-jekyll">&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new &amp;lt;PATH&amp;gt;&lt;/code&gt; installs a new Jekyll site at the path specified (relative to current directory). In this case, Jekyll will be installed in a directory called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;myblog&lt;/code&gt;. Here are some additional details:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;To install the Jekyll site into the directory you’re currently in, run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; . If the existing directory isn’t empty, you can pass the –force option with jekyll new . –force.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; automatically initiates &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; to install the dependencies required. (If you don’t want Bundler to install the gems, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new myblog --skip-bundle&lt;/code&gt;.)&lt;/li&gt;
+  &lt;li&gt;By default, the Jekyll site installed by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; uses a gem-based theme called Minima. With gem-based themes, some of the directories and files are stored in the theme-gem, hidden from your immediate view.&lt;/li&gt;
+  &lt;li&gt;We recommend setting up Jekyll with a gem-based theme but if you want to start with a blank slate, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new myblog --blank&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;To learn about other parameters you can include with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt;, type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new --help&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Nancy Perez</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Jekyll" />
+      
+        <category term="Tips" />
+      
+        <category term="Development" />
+      
+
+      
+        <summary type="html">jekyll new &amp;lt;PATH&amp;gt; installs a new Jekyll site at the path specified (relative to current directory). In this case, Jekyll will be installed in a directory called myblog. Here are some additional details:</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">What is Jekyll?</title>
+      <link href="http://localhost:4000/what-is-jekyll" rel="alternate" type="text/html" title="What is Jekyll?" />
+      <published>2018-02-10T00:00:00+01:00</published>
+      <updated>2018-02-10T00:00:00+01:00</updated>
+      <id>http://localhost:4000/what-is-jekyll</id>
+      <content type="html" xml:base="http://localhost:4000/what-is-jekyll">&lt;p&gt;No more databases, comment moderation, or pesky updates to install-just your content. Markdown, Liquid, HTML &amp;amp; CSS go in. Static sites come out ready for deployment. Permalinks, categories, pages, posts, and custom layouts are all first-class citizens here.&lt;/p&gt;
+
+&lt;p&gt;Sick of dealing with hosting companies? GitHub Pages are powered by Jekyll, so you can easily deploy your site using GitHub for free-custom domain name and all.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-jekyll&quot;&gt;What is Jekyll?&lt;/h2&gt;
+
+&lt;p&gt;Jekyll is a simple, blog-aware, static site generator.&lt;/p&gt;
+
+&lt;p&gt;You create your content as text files (Markdown), and organize them into folders. Then, you build the shell of your site using Liquid-enhanced HTML templates. Jekyll automatically stitches the content and templates together, generating a website made entirely of static assets, suitable for uploading to any server.&lt;/p&gt;
+
+&lt;p&gt;Jekyll happens to be the engine behind GitHub Pages, so you can host your project’s Jekyll page/blog/website on GitHub’s servers for free.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Nancy Perez</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Jekyll" />
+      
+        <category term="Development" />
+      
+
+      
+        <summary type="html">No more databases, comment moderation, or pesky updates to install-just your content. Markdown, Liquid, HTML &amp;amp; CSS go in. Static sites come out ready for deployment. Permalinks, categories, pages, posts, and custom layouts are all first-class citizens here.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
