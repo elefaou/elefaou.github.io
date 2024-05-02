@@ -10,17 +10,6 @@ textarea {
     font-family: $font-primary;
 }
 
-/* Webfont: Wifelove */
-@font-face {
-    font-family: 'Wifelove';
-    src: url('Wifelove Regular.woff') format('woff'), /* Modern Browsers */
-         url('Wifelove Regular.woff2') format('woff2'), /* Modern Browsers */
-         url('Wifelove Regular.otf') format('opentype'); /* Safari, Android, iOS */
-             font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
 body {
     background-color: #fff;
     color: $gray-dark;
