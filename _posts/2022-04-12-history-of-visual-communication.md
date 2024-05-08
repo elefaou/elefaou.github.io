@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The History of Visual Communication"
+title: "The quirks of a reproductive system between sexuality and asexuality"
 tags: [Design, Tips]
 featured_image_thumbnail:
 featured_image: assets/images/posts/2.jpg
