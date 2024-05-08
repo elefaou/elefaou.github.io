@@ -4,7 +4,7 @@ title: "Seven Things That Will Make Or Break Fusion Festival"
 tags: [Music, Tips]
 featured_image_thumbnail:
 featured_image: assets/images/posts/5.jpg
-author: nancy
+author: ehouarn
 ---
 
 **The Fusion Festival** is a music and arts festival with a countercultural character. It takes place at a former military airport called Müritz Airpark in Lärz, Mecklenburg-Vorpommern, in northeastern [Germany](https://en.wikipedia.org/wiki/Germany). The festival name is often depicted in Cyrillic letters as Фузион, but pronounced like the English word fusion ['fjuʒən].

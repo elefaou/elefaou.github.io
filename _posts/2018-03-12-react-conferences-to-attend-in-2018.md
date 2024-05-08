@@ -4,7 +4,7 @@ title: "React.js Conferences to Attend in 2019"
 tags: [Development]
 featured_image_thumbnail:
 featured_image: assets/images/posts/6.jpg
-author: daniel
+author: ehouarn
 ---
 
 Conferences are a perfect way to make friends and learn from experts. Here are some React conferences to look forward to in 2018.

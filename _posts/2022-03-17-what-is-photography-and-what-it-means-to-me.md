@@ -4,7 +4,7 @@ title: "What Is Photography and What It Means To Me"
 tags: [Photography, Tips]
 featured_image_thumbnail:
 featured_image: assets/images/posts/15.jpeg
-author: daniel
+author: ehouarn
 ---
 
 **Photography** is the science, art and practice of creating durable images by recording light or other electromagnetic radiation, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film.
