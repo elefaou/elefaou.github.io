@@ -20,7 +20,8 @@ Communication design can also refer to a systems-based approach, in which the to
 
 ![](assets/images/posts/21.jpg#wide)
 
-> “Don’t design for everyone. It’s impossible. All you end up doing is designing something that makes everyone unhappy.”
+> “Our study uncovers an unexpected type of non-Mendelian genetic inheritance involving cosegregation of recombinant chromatids.”
+> <cite>Abstract of the article</cite>
 
 Communication design seeks to attract, inspire, create desires and motivate the people to respond to messages, with a view to making a favorable impact to the bottom line of the commissioning body, which can be either to build a brand, move sales, or for humanitarian purposes. Its process involves strategic business thinking, using market research, creativity, and problem-solving. Communications designers translate ideas and information through a variety of media. Their particular talent lies not only in the traditional skills of the hand, but also in their ability to think strategically in design and marketing terms, in order to establish credibility through the communication.
 
